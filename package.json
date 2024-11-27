@@ -1,44 +1,25 @@
 {
-  "name": "medusa-plugin-template",
-  "version": "0.0.1",
-  "description": "A template for building plugins for Medusa",
-  "author": "olivermrbl",
-  "license": "MIT",
+  "name": "medusa-plugin-klaviyo2.0",
+  "version": "1.0.0",
+  "description": "Klaviyo integration plugin for Medusa",
+  "main": "src/index.js",
   "scripts": {
-    "build": "babel src -d . --ignore **/__tests__",
-    "prepare": "cross-env NODE_ENV=production npm run build",
-    "watch": "babel -w src --out-dir . --ignore **/__tests__",
-    "test": "jest"
+    "build": "tsc",
+    "watch": "tsc --watch"
   },
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "medusa-core-utils": "^1.1.30"
+    "@medusajs/medusa": "^1.12.0",
+    "next": "^15.0.3"
   },
-  "peerDependencies": {
-    "medusa-interfaces": "1.x"
-  },
-  "repository": "https://github.com/medusajs/medusa-plugin-template.git",
-  "keywords": [
-    "medusa",
-    "medusa-plugin"
-  ],
   "devDependencies": {
-    "@babel/cli": "^7.7.5",
-    "@babel/core": "^7.7.5",
-    "@babel/node": "^7.7.4",
-    "@babel/plugin-proposal-class-properties": "^7.7.4",
-    "@babel/plugin-proposal-optional-chaining": "^7.12.7",
-    "@babel/plugin-transform-classes": "^7.9.5",
-    "@babel/plugin-transform-instanceof": "^7.8.3",
-    "@babel/plugin-transform-runtime": "^7.7.6",
-    "@babel/preset-env": "^7.7.5",
-    "@babel/register": "^7.7.4",
-    "@babel/runtime": "^7.9.6",
-    "client-sessions": "^0.8.0",
-    "cross-env": "^5.2.1",
-    "eslint": "^6.8.0",
-    "jest": "^25.5.2",
-    "medusa-test-utils": "^1.1.33"
-  }
+    "@babel/cli": "^7.x.x",
+    "@babel/core": "^7.x.x",
+    "@babel/preset-env": "^7.x.x",
+    "@types/next": "^9.0.0",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
