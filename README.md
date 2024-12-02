@@ -16,7 +16,7 @@ KLAVIYO_COMPANY_ID : your_klaviyo_company_id
 
 ```javascript
 {
-  resolve: "medusa-plugin-klaviyo2.0",
+  resolve: "medusa-plugin-klaviyo",
   options: {
     klaviyo_api_key: process.env.KLAVIYO_API_KEY,
     klaviyo_company_id: process.env.KLAVIYO_COMPANY_ID,
