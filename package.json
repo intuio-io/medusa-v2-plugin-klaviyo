@@ -1,6 +1,6 @@
 {
   "name": "medusa-plugin-klaviyo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Klaviyo integration plugin for Medusa",
   "main": "src/index.js",
   "scripts": {
