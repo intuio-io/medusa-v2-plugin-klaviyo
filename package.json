@@ -1,5 +1,5 @@
 {
-  "name": "medusa-plugin-klaviyo2.0",
+  "name": "medusa-plugin-klaviyo",
   "version": "1.0.0",
   "description": "Klaviyo integration plugin for Medusa",
   "main": "src/index.js",
@@ -8,7 +8,7 @@
     "watch": "tsc --watch"
   },
   "dependencies": {
-    "@medusajs/medusa": "^1.12.0",
+    "@medusajs/medusa": "^1.20.10",
     "next": "^15.0.3"
   },
   "devDependencies": {
@@ -19,7 +19,10 @@
     "@types/node": "^22.10.0",
     "typescript": "^5.7.2"
   },
-  "keywords": ["klaviyo","medusa"],
+  "keywords": [
+    "klaviyo",
+    "medusa"
+  ],
   "author": "Veleston Rato",
   "license": "ISC"
 }
