@@ -26,5 +26,8 @@
     "medusa v2"
   ],
   "author": "Intuio - Veleston Rato",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }
