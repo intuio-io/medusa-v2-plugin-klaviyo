@@ -60,7 +60,7 @@ plugins: [
 /store/klaviyo/test
 ```
 
-This plugin is supported by Medusa v2 only. If you are looking for support for medusa v2 then please refer to the v1 version of the plugin. 
+This plugin is supported by Medusa v2 only. If you are looking for support for medusa v1 then please refer to the v1 version of the plugin. 
 
 ```javascript
 npm i @intuio/medusa-plugin-klaviyo@medusa-v1
