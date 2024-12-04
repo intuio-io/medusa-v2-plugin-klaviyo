@@ -1,7 +1,7 @@
 {
-  "name": "@intuio/medusa-plugin-klaviyo",
-  "version": "1.0.0",
-  "description": "Klaviyo integration plugin for MedusaV2",
+  "name": "medusa-plugin-klaviyo",
+  "version": "1.0.2",
+  "description": "Klaviyo integration plugin for Medusa",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -22,9 +22,8 @@
   },
   "keywords": [
     "klaviyo",
-    "medusa",
-    "medusa v2"
+    "medusa"
   ],
-  "author": "Intuio - Veleston Rato",
-  "license": "MIT"
+  "author": "Veleston Rato",
+  "license": "ISC"
 }

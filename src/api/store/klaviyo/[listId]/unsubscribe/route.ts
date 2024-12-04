@@ -23,3 +23,4 @@ export async function POST(req: Request, res: any): Promise<void> {
     res.status(500).json({ error: error.message, status: 500 });
   }
 }
+export const AUTHENTICATE = false;

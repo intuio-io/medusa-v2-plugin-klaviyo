@@ -8,12 +8,12 @@ interface KlaviyoServiceConfig {
   }
   
   export default class KlaviyoService {
-    private apiKey: string;
-    private companyId: string;
+    private apiKey: any;
+    private companyId: any;
   
     constructor(config: KlaviyoServiceConfig) {
-      this.apiKey = config.apiKey;
-      this.companyId = config.companyId;
+      this.apiKey = process.env.KLAVIYO_API_KEY,
+      this.companyId = process.env.KLAVIYO_COMPANY_ID;
     }
   
     async subscribeToKlaviyo(listId: string, jsonData: any): Promise<any> {

@@ -16,3 +16,5 @@ export async function GET(req: Request, res: any): Promise<void> {
     res.status(500).json({ error: error.message , status: 500 });
   }
 }
+
+export const AUTHENTICATE = false;

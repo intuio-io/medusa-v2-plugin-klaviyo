@@ -3,25 +3,31 @@
 
 Plugins offer a way to extend and integrate the core functionality of Medusa.
 
-In most commerce solutions, you can extend the basic features, but it often comes at the expense of having to build standalone web applications. Our architecture is built such that plugins run within the same process as the core, eliminating the need for extra server capacity, infrastructure, and maintenance. As a result, the plugins can use all other services as dependencies and access the database.
+In the world of modern e-commerce, seamless integrations are key to delivering superior customer experiences. Recognizing this, **Medusa** provides a versatile framework for building powerful online stores. However, when it came to connecting **Klaviyo**—a leading email marketing and subscription management platform—Medusa suggested using a detour through **Segment**, adding unnecessary complexity for users.
+
+This is where the **Medusa Plugin for Klaviyo** comes into play. Designed to eliminate the need for Segment, this plugin simplifies the process of configuring and using Klaviyo, making your subscription and marketing automation efforts faster, easier, and more efficient.
 
 ## Usage
 
-Add the following in the `medusa-config.js` file:
 
 ```javascript
 KLAVIYO_API_KEY : your_klaviyo_api_key
 KLAVIYO_COMPANY_ID : your_klaviyo_company_id
 ```
 
+```plaintext
+For Medusa v2 please follow the below setup steps
+NOTE: Medusa v2 currently does not support plugins. We have created a way in which we can make usage of plugins possible in medusa v2.
+```
+
+Add the following in the `medusa-config.js` file:
+
 ```javascript
-{
-  resolve: "medusa-plugin-klaviyo",
-  options: {
-    klaviyo_api_key: process.env.KLAVIYO_API_KEY,
-    klaviyo_company_id: process.env.KLAVIYO_COMPANY_ID,
-  },
-}
+plugins: [
+    {
+      resolve: "./../node_modules/medusa-v2-plugin-klaviyo/src",
+    },
+  ],
 ```
 
 ## Usage of Routes
@@ -50,3 +56,6 @@ KLAVIYO_COMPANY_ID : your_klaviyo_company_id
 ```plaintext
 /store/klaviyo/test
 ```
+
+If you are uding v1 of medusa please refer to the below link as this setup is only supported for medusa v2
+https://www.npmjs.com/package/medusa-plugin-klaviyo
