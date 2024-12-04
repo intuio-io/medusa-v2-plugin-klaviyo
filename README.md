@@ -63,7 +63,7 @@ plugins: [
 This plugin is supported by Medusa v2 only. If you are looking for support for medusa v2 then please refer to the v1 version of the plugin. 
 
 ```javascript
-npm i @intuio/medusa-plugin-klaviyo@v1
+npm i @intuio/medusa-plugin-klaviyo@medusa-v1
 ```
 
 **NOTE: Medusa v2 currently does not support plugins. We have created a way in which we can make usage of plugins possible in medusa v2.**
