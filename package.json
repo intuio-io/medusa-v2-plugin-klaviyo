@@ -1,6 +1,6 @@
 {
   "name": "@intuio/medusa-plugin-klaviyo",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Klaviyo integration plugin for MedusaV2",
   "main": "dist/index.js",
   "scripts": {
