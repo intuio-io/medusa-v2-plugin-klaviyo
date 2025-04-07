@@ -69,6 +69,7 @@ This plugin is supported by Medusa v2 only. If you are looking for support for m
 
 npm i @intuio/medusa-plugin-klaviyo@medusa-v1
 ```
+
 ## 💬 Let's Connect
 We’re building this in public at Intuio Software Labs — a premium product studio focused on ecommerce and open-source innovation.
 ☕ Like the plugin? Buy us a coffee or support our efforts : [Donate here](https://buymeacoffee.com/intuio)
@@ -79,3 +80,14 @@ We’re looking for contributors, collaborators, and ecommerce founders to partn
 📩 info@intuio.io / sales@intuio.io
 
 🌐 https://intuio.io
+
+## 🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+Check out the contributing guide to get started.
+
+## 📜 License
+MIT © Intuio Software Labs
+
+## 📈 Loved By the Community?
+If you’ve used this plugin and found it helpful, leave us a ⭐ on GitHub and share it with others using Medusa.
